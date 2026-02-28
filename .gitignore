@@ -1,0 +1,36 @@
+# --- 공통 및 의존성 ---
+node_modules/
+.DS_Store
+*.log
+.env*
+
+# --- 모든 하위 프로젝트의 의존성 제거 ---
+# (어느 깊이에 있든 node_modules는 제외합니다)
+**/node_modules/
+
+# --- iOS (모든 하위 프로젝트 내의 ios 폴더 대상) ---
+**/ios/Pods/
+**/ios/build/
+**/ios/DerivedData/
+**/ios/*.xcworkspace
+**/ios/.xccheckout
+**/ios/*.xcscheme
+**/ios/*.xcscmblueprint
+**/ios/*.xctest
+**/ios/.tmp/
+
+# --- Android (모든 하위 프로젝트 내의 android 폴더 대상) ---
+**/android/.gradle/
+**/android/app/build/
+**/android/build/
+**/android/local.properties
+**/android/generated/
+**/android/.cxx/
+**/android/*.keystore
+**/android/*.jks
+
+# --- React Native 캐시 및 임시 파일 ---
+.expo/
+.buckd/
+.yarn/
+.watchmanconfig
