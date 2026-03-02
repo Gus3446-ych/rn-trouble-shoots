@@ -19,3 +19,6 @@
 [submodule "Chapter09"]
 	path = Chapter09
 	url = https://salgilbarana@github.com/Gus3446-ych/Chapter09.git
+[submodule "Supplement"]
+	path = Supplement
+	url = https://salgilbarana@github.com/Gus3446-ych/useLiveAnalysis.git
