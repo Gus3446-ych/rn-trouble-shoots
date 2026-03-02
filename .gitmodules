@@ -13,3 +13,6 @@
 [submodule "Chapter06"]
 	path = Chapter06
 	url = https://salgilbarana@github.com/Gus3446-ych/Chapter06.git
+[submodule "Chapter07"]
+	path = Chapter07
+	url = https://salgilbarana@github.com/Gus3446-ych/Chapter07.git
