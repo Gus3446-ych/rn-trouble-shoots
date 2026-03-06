@@ -29,3 +29,11 @@
 [submodule "Supplement"]
 	path = Supplement
 	url = https://salgilbarana@github.com/Gus3446-ych/useLiveAnalysis.git
+	branch = main
+[submodule "Chapter07Component"]
+	path = Chapter07Component
+	url = https://salgilbarana@github.com/Gus3446-ych/Chapter07Component.git
+	branch = main
+[submodule "Chapter07TurboModule "]
+	path = "Chapter07TurboModule "
+	url = https://salgilbarana@github.com/Gus3446-ych/Chapter07TurboModule.git
